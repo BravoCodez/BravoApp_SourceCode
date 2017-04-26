@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4929dp"
+        android:padding="16dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="61dp"
+            android:text="Themes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="12dp"
+            android:text="BravoTheme:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/bravothemepreview" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="67dp"
+            android:text="OxygenUI Theme:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignRight="@+id/textView15"
+            android:layout_alignEnd="@+id/textView15" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            app:srcCompat="@drawable/oxygenui"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="87dp"
+            android:text="Oreo Theme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/oreotheme"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="83dp"
+            android:text="Olympic Theme:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/olympictheme" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="86dp"
+            android:text="Particle Theme:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignRight="@+id/textView14"
+            android:layout_alignEnd="@+id/textView14" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/particlefulltheme" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:text="Nameless Theme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView26"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/nameless" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:text="OxyOS Theme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView11"
+            android:layout_alignRight="@+id/textView30"
+            android:layout_alignEnd="@+id/textView30" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView27"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/oxyui" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="67dp"
+            android:text="CardBoxUI Theme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView22"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView28"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/cardboxui" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="66dp"
+            android:text="GlowUI Theme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView23"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView29"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/glowui" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="iOS 10 Theme"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_below="@+id/imageView24"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="420dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView30"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/iosten" />
+
+        <Button
+            android:id="@+id/button_az"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToaz"
+            android:text="Download BravoTheme"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+            android:id="@+id/button_al"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToal"
+            android:text="Download OxygenUI Theme"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginEnd="13dp"></Button>
+        <Button
+            android:id="@+id/button_ak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToak"
+            android:text="Download Oreo Theme"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+            android:id="@+id/button_ao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToao"
+            android:text="Download Olympic Theme"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+            android:id="@+id/button_ag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToag"
+            android:text="Download Nameless Theme"
+            android:layout_below="@+id/imageView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+            android:id="@+id/button_aff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToaff"
+            android:text="Download OxyOS Theme"
+            android:layout_below="@+id/imageView22"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+            android:id="@+id/button_aa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToaa"
+            android:text="Download CardBoxUI Theme"
+            android:layout_below="@+id/imageView23"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+            android:id="@+id/button_aww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:onClick="goToaww"
+            android:text="Download GlowUI Theme"
+            android:layout_below="@+id/imageView24"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+        <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:clickable="true"
+        android:onClick="goToadd"
+        android:text="Download iOS10 Theme"
+            android:layout_below="@+id/imageView25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></Button>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAID THEME"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_below="@+id/imageView7"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>
